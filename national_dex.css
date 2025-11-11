@@ -1,0 +1,102 @@
+#titulo {
+    color: white;
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 10vh;
+}
+
+.subtitulo {
+    color: white;
+    text-align: center;
+    font-size:3.5vh;
+}
+
+table { 
+    width: 50%; 
+    border-collapse: collapse; 
+    margin: 10vh auto; 
+    background-color: #1e1e1e; 
+    box-shadow: 0 0.21vh 0.8vh rgba(0,0,0,0.1); 
+    color:white;
+}
+
+th, td {
+    text-align: center; 
+    border-bottom: 0.10vh solid #1e1e1e; 
+    font-size: 2.5vh;
+}
+th {
+    background-color: #1e1e1e; 
+    color: white; 
+    text-transform: uppercase; 
+}
+tr:nth-child(even) { 
+    background-color: #1e1e1e; 
+    color:white;
+}
+tr:hover { 
+    background-color: #333; 
+    transition: 0.2s;
+}
+img {
+    width: 16.46vh; 
+    height: auto;
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link:hover {
+    text-decoration: underline; /* ou outra coisa se quiser um efeito */
+}
+
+td.nome {
+    font-family: "Chelsea Market", system-ui;
+    font-size: 2.3vh;
+    color: #ffffff
+}
+
+td.nome, td.tipo1, td.tipo2 {
+    text-transform: capitalize;
+}
+
+/* Estilo base dos tipos */
+.tipo1, .tipo2 {
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* Cores por tipo */
+.grass     {color: #4CAF50;}
+.poison    {color: #9C27B0;}
+.fire      {color: #FF5722;}
+.water     {color: #2196F3;}
+.electric  {color: #FFEB3B;}
+.psychic   {color: #E91E63;}
+.rock      {color: #795548;}
+.ground    {color: #D7B76A;}
+.ice       {color: #00BCD4;}
+.dragon    {color: #673AB7;}
+.dark      {color: #212121;}
+.fairy     {color: #F48FB1;}
+.normal    {color: #9E9E9E;}
+.flying    {color: #81D4FA;}
+.bug       {color: #8BC34A;}
+.fighting  {color: #D32F2F;}
+.steel     {color: #607D8B;}
+.ghost     {color: #6A1B9A;}
+
+#numero {
+    color: #bdbbbb;
+}
+
+#tabela {
+    width: 60%; 
+    border-collapse: collapse; 
+    margin: 10vh auto; 
+    background-color: #1e1e1e; 
+    box-shadow: 0 0.21vh 0.8vh rgba(0,0,0,0.1); 
+    color:white;
+}

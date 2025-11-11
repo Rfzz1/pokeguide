@@ -1,0 +1,62 @@
+/* Botão hambúrguer */
+.menu-hamburguer {
+  position: fixed;
+  top: 18vh;
+  left: 4vh;
+    width: 4.39vh;
+    height: 3.29vh;
+    cursor: pointer;
+    z-index: 1001; /* acima do conteúdo */
+    transition: top 0.3s;
+    cursor: pointer;
+    z-index: 1001;
+}
+.menu-hamburguer div {
+  width: 3.29vh;
+  height: 0.43vh;
+  background-color: white;
+  margin: 0.65vh 0;
+  border-radius: 0.219vh;
+  transition: 0.3s;
+}
+
+/* Menu lateral */
+#menu-lateral {
+  height: 100%;
+  width: 0; /* escondido por padrão */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding-top: 6.58vh;
+  z-index: 1000;
+}
+#menu-lateral ul {
+  list-style: none;
+  padding: 0;
+  margin: 17vh 0;
+}
+#menu-lateral ul li {
+  margin: 1.64vh 0;
+  text-align: left;
+}
+#menu-lateral ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.19vh;
+  display: block;
+  padding: 1.09vh 4vh;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#menu-lateral ul li a:hover {
+  background-color: #333;
+  border-radius: 0.54vh;
+}
+
+/* Quando o menu abre */
+#menu-lateral.active {
+  width: 27.4vh;
+}

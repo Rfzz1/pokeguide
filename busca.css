@@ -1,0 +1,109 @@
+
+
+#titulo {
+  font-family: "Chelsea Market", cursive;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+
+.search-container {
+    position: fixed;
+    top: 16.5vh;  /* mesma altura de antes */
+    right: 4vh; 
+    transition: top 0.4s ease;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.suggestions-list {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 0;
+  z-index: 1000;
+  text-transform: capitalize;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.suggestion-item:hover {
+  background: #f0f0f0;
+}
+
+.suggestion-item.active {
+    background-color: #e0e0ff;
+}
+
+.suggestion-sprite {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+
+.search-container input {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  font-size: 1rem;
+  background-color: #1e1e1e;
+  color: white;
+  width: 220px;
+}
+
+.search-container input::placeholder {
+  color: #aaa;
+}
+
+
+.search-container input:focus {
+  border-color: #ff1e1e;
+}
+
+.search-container button {
+  background-color: #9c9c9c;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-container button:hover {
+  background-color: #9c9c9c;
+}
+
+.nome.highlight-name {
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #fffa90;
+}
+
+.suggestion-item.active {
+    background-color: #e0e0ff;
+}
+
+
+
+
+
+
+
