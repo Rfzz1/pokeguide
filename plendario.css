@@ -1,0 +1,36 @@
+.container {
+	display:flex;
+	flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}	
+
+.paragrafo {
+	color: #fff;
+	font-size: 2.5vh;
+	text-align: justify;
+	width: 	80vh;
+}
+
+.img_lendarios {
+	height: auto;
+	width: 80vh;
+	border-radius: 2vh;
+	margin-left: 10vh;
+}
+
+#disponibilidade {
+	margin-top: 10vh;
+}
+
+#disponibilidade-text {
+	width: 80vh;
+	margin-top: 8vh;
+}
+
+#lugia {
+	height: auto;
+	width: 70vh;
+	margin-top: 8vh;
+}
