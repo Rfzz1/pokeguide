@@ -36,9 +36,47 @@
 <h2 class="subtitulo" id="disponibilidade">Disponibilidade</h2>
 
 <div class="container">
-	<p class="paragrafo" id="disponibilidade-text">A disponibilidade dos lendários varia conforme a mídia. Nos jogos e mangá, geralmente existe apenas um exemplar de cada lendário, com raras exceções como Heatran, Type: Null e Kubfu. Casos de múltiplas capturas ou batalhas especiais ocorrem apenas por motivos de gameplay. O mangá destaca que manter esses Pokémon em Poké Bolas por muito tempo pode desequilibrar o mundo, embora versões de universos paralelos possam existir, como o Celebi shiny de Mystery Dungeon, que é fêmea, diferente do Celebi original.
-	Já o anime adota uma lógica mais flexível, permitindo múltiplos exemplares e até reprodução entre lendários, como Lugia e Latios. Essa ideia já aparecia em Pokémon Snap, que mostra ovos de Articuno, Zapdos e Moltres.</p>
-	<img src="img/lugia.jpg" class="img_lendarios" id="lugia">
+	<p class="paragrafo" id="disponibilidade-text">
+		A disponibilidade dos lendários varia conforme a mídia. Nos jogos e mangá, geralmente existe apenas um exemplar de cada lendário, com raras exceções como Heatran, Type: Null e Kubfu. 
+		Casos de múltiplas capturas ou batalhas especiais ocorrem apenas por motivos de gameplay. 
+		O mangá destaca que manter esses Pokémon em Poké Bolas por muito tempo pode desequilibrar o mundo.
+		
+		<!-- imagem no meio do texto -->
+		<img src="img/lugia.jpg" class="img-float">
+
+		Embora versões de universos paralelos possam existir, como o Celebi shiny de Mystery Dungeon, que é fêmea, diferente do Celebi original. 
+		Já o anime adota uma lógica mais flexível, permitindo múltiplos exemplares e até reprodução entre lendários, como Lugia e Latios. 
+		Essa ideia já aparecia em Pokémon Snap, que mostra ovos de Articuno, Zapdos e Moltres.
+		
+		<br><br>
+		No entanto, essa abordagem gera diversas contradições narrativas:
+		<br><br>
+		
+		A maioria dos lendários possui descrições ditas como espécies únicas. Tecnicamente, não deveria haver outros exemplares, embora essa lógica
+		já foi contrariada no anime. O Lugia é tradicionalmente a ave da torre queimada, mas no anime foi mostrado que existem pelo menos 3 Lugias,
+		indo contra a ideia de que só pode existir um pokémon lendário de cada espécie.
+		
+		<br><br>
+		
+		Atualmente, existem 2 Mewtwos idênticos no universo do anime, contrariandoa lógica da sua criação.
+		
+		<br><br>
+		<!-- imagem no meio do texto -->
+		<img src="img/heatran.jpg" class="img-float-esq">
+		
+		Segundo a Pokedex de 1996, Dratini já foi considerando um pokémon lendário mas perdeu esse status quando foi descoberto uma colônia da espécie.
+		Após comprovada a existência de múltiplos indivíduos, esse pokémon deixou de ser lendário e começou a ser considerado apenas como "raro".
+		No anime, Dratini e outros pokémon como o Shaymin reforçam essa lógica porém continuam a ser tratados no anime como lendários sem nenhuma
+		explicação.
+		
+		<br><br>
+		
+		Existem lendários tão numerosos que chegam a ser tratados como Pokémon comuns no anime, sem chamar atenção de treinadores ao redor.
+		Como é o caso do Heatran, visto duas vezes sem qualquer alarde.
+		
+		<br><br>
+		
+	</p>
 </div>
 </body>
 </html>
