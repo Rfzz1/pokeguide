@@ -41,10 +41,10 @@
 
 .img-float-esq {
 	float: left;         
-	width: 32vh;              
+	width:50vh;              
 	height: auto;
 	margin-right: 3vh;        
-	margin-bottom: 0vh;
+	margin-bottom: 3vh;
 	margin-top: 3vh;
 	border-radius: 1.5vh;
 }
