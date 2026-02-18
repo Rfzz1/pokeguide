@@ -64,6 +64,7 @@
 		<!-- imagem no meio do texto -->
 		<img src="img/heatran.jpg" class="img-float-esq">
 		
+		
 		Segundo a Pokedex de 1996, Dratini já foi considerando um pokémon lendário mas perdeu esse status quando foi descoberto uma colônia da espécie.
 		Após comprovada a existência de múltiplos indivíduos, esse pokémon deixou de ser lendário e começou a ser considerado apenas como "raro".
 		No anime, Dratini e outros pokémon como o Shaymin reforçam essa lógica porém continuam a ser tratados no anime como lendários sem nenhuma
@@ -72,9 +73,19 @@
 		<br><br>
 		
 		Existem lendários tão numerosos que chegam a ser tratados como Pokémon comuns no anime, sem chamar atenção de treinadores ao redor.
-		Como é o caso do Heatran, visto duas vezes sem qualquer alarde.
+		Como é o caso do Heatran, visto duas vezes sem qualquer alarde. Além disso, no jogo, Heatran apresenta mútliplos indivíduos e inclui machos e fêmeas, 
+		o que torna incerto o motivo de ser classificado como lendário. Posteriormente outros lendários e míticos seguiram essa linha de raciocínio, como a linha de Cosmog, 
+		que é o primeiro lendário capaz de evoluir, algo que anteriormente era exclusivo de Pokémon não-lendários, já que, de acordo com a teoria do Professor Rowan, 
+		lendários já seriam perfeitos e, portanto, não evoluiriam.
+		Há casos ainda mais complexos, como Type: Null, que pode evoluir e possui mais de um exemplar. Embora não seja capaz de se reproduzir, o que limita sua população, 
+		foi criado um quarto indivíduo posteriormente, mostrando que sua espécie pode ser expandida artificialmente por humanos.
 		
 		<br><br>
+		
+		Para explicar essas inconsistências, foi criada uma teoria chamada "Lendário Maior", segundo a qual, mesmo existindo múltiplos exemplares de uma espécies,
+		há um indivíduo único e mais poderoso correspondente ao pokémon da lenda. Casos como esse ocorrem com o Lugia, Regice, Regirock e Registeel.
+		Com o passar das gerações, as características que definiam a singularidade dos lendários foram progressivamente quebradas. Atualmente, é desconhecido o que realmente 
+		classifica um Pokémon como lendário, já que a Game Freak nunca forneceu uma definição clara para corrigir essas contradições.
 		
 	</p>
 </div>
