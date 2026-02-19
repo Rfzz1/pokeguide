@@ -27,6 +27,7 @@
 	width: 130vh;
 	margin-top: 8vh;
 	text-align: justify;
+	margin-bottom: 10vh;
 }
 
 .img-float {
@@ -48,3 +49,49 @@
 	margin-top: 3vh;
 	border-radius: 1.5vh;
 }
+
+/*======================= TABELA =========================*/
+
+.pokedex-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 3vh;
+    width: 90%;
+    margin: 0 auto 10vh auto;
+}
+
+.pokemon-card {
+    background-color: #1e1e1e;
+    box-shadow: 0 0.21vh 0.8vh rgba(0,0,0,0.1);
+    padding: 2vh;
+    text-align: center;
+    border-radius: 1vh;
+    color: white;
+    transition: 0.2s;
+}
+
+.pokemon-card:hover {
+    background-color: #333;
+}
+
+.pokemon-card img {
+    width: 16.46vh;
+    height: auto;
+    margin-top: 1vh;
+}
+
+.pokemon-card .nome {
+    font-family: "Chelsea Market", system-ui;
+    font-size: 2.3vh;
+    margin: 1vh 0;
+}
+
+.pokemon-card .tipos {
+    margin-bottom: 1vh;
+}
+
+.pokemon-card .tipo1, .pokemon-card .tipo2 {
+    font-weight: bold;
+    margin: 0 0.5vh;
+}
+
